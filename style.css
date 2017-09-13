@@ -1,0 +1,89 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: linear-gradient(#f9d684, #db841a);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	opacity: 0.9;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	outline: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+#text1 {
+	text-align: center;
+	margin-top: 20%;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+}
+
+#text2 {
+	text-align: center;
+	margin-top: 0%;
+	margin-left: 50%;
+	font-size: 40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#photo1 {
+	position: relative;
+	float: left;
+	size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#video {
+	position: absolute;
+	left: 50%;
+	margin-left: -560px;
+	margin-top: 5%;
+	border: 4px solid #000; 
+}
+
+.hem {
+	background: url("journey5.jpg");
+	background-size: cover;
+}
+
+.trailer {
+	background: url("journey6.jpg");
+	background-size: cover;
+}
+
+.bakgrundvideo {
+	position: absolute;
+}
+
+#lore {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 180px;
+	font-family: 'Advent Pro', sans-serif;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
